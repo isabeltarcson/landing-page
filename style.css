@@ -1,0 +1,19 @@
+.header{
+    padding:20px;
+    margin: 10px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: no-wrap;
+    flex: 1 1 auto;
+    justify-content: space-around;
+}
+.header-content{
+    font-size: 20px;
+}
+.header-link{
+    align-self: center;
+    
+}
+.box1{
+    display: flex;
+}
