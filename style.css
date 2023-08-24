@@ -1,3 +1,6 @@
+* {
+    border: 2px solid red;
+}
 .header{
     padding:20px;
     margin: 10px;
@@ -14,6 +17,28 @@
     align-self: center;
     
 }
-.box1{
+.box1 {
     display: flex;
+    width: 800px;
+    flex: 1 1 auto;
+}
+.boxleft {
+    display: flex;
+    flex-direction: column;
+}
+.boxright {
+    display: flex;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+
+}
+.box2-content {
+    width: 100px;
+}
+h2 {
+    text-align: center;
 }
