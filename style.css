@@ -1,7 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
 }
 h2{
     text-align: center;
@@ -20,6 +19,7 @@ h2{
     flex-wrap: no-wrap;
     flex: 1 1 auto;
     justify-content: space-around;
+    margin: 0vh 10vw;
     
 }
 .header-content{
@@ -90,15 +90,17 @@ h2{
     width: 120px;
     height: 120px;
     text-align: center;
+    margin: 0;
 }
 .call-to-action {
     color:white;
     background: #3882F6;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 90px;
     padding: 40px;
-    margin: 90px 140px;
+    margin: 10vh 10vw;
     border-radius: 10px;
 
 }
@@ -108,9 +110,11 @@ h2{
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
-    padding: 7em 14em;
+    padding: 10vh 15vw;
+    width: 800px;
+    
 }
 .quote-content {
     font-style: italic;
