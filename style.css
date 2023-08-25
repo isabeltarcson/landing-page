@@ -1,13 +1,17 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-  
+    margin: 0px;
+    padding: 0px;
 }
 h2{
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding:30px;
+    padding: 20px;
+}
+.header-style {
+    background: #1f2937;
 }
 .header{
     padding:20px;
@@ -16,48 +20,71 @@ h2{
     flex-wrap: no-wrap;
     flex: 1 1 auto;
     justify-content: space-around;
-    background: #1f2937;
-    padding:30px;
     
 }
 .header-content{
     font-size: 24px;
     color: #F9FAF8;
 }
+.links {
+    display: flex;
+    gap: 20px;
+}
 .header-link{
     align-self: center;
     color: #E5E7Eb;
     
 }
+.hero-style {
+    background: #1f2937;
+}
 .herobox {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 auto;
-    background: #1f2937;
-    padding:30px;
-    
+    flex-grow: 1;
+    padding: 10vh 10vw;
+}
+.boxleft{
+    width: 400px;
 }
 .hero {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    padding:30px;
+    
 }
 .hero-secondary {
     font-size: 18px;
     color: #E5E7Eb;
     
 }
+.button {
+    background: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: #E5E7Eb;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 18px;
+}
 .boxright {
     align-self: center;
+    color: white;
+    background: grey;
+    padding: 90px;
 }
+.information {
+    padding: 20px;
+}     
+
 .box2 {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin: 30px;
     flex-wrap: wrap;
+    padding: 5px 80px;
+    
 }
 .box2-content {
     width: 120px;
@@ -69,20 +96,26 @@ h2{
     background: #3882F6;
     display: flex;
     justify-content: center;
-    margin:30px;
-    padding:30px;
+    gap: 90px;
+    padding: 40px;
+    margin: 90px 140px;
+    border-radius: 10px;
+
+}
+.quote-style {
+    background: #E5E7EB;
 }
 .quote {
-    padding: 40px;
-    background: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 14em;
 }
 .quote-content {
     font-style: italic;
     font-size: 36px;
-    color: #1F2937;
-    
+    color: #1F2937; 
 }
 .quote-tag {
     align-self: flex-end;
@@ -91,5 +124,4 @@ h2{
     border: 2px solid #3882F6;
     border-radius:14px;
     color: #1F2937;
-
 }
